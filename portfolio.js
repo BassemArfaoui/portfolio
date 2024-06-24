@@ -1,13 +1,13 @@
 // showing the projects descriptions
 const descriptions = [
-  "dog project description",
-  "construction project description",
-  "Water project description",
-  "GOT project description",
-  "dog project description",
-  "construction project description",
-  "Water project description",
-  "GOT project description",
+  "Tech e-commerce website built with MySQL-Js-PHP",
+  "animal adoption website built with MongoDB-Express-React-Node",
+  "Blogging Website built with React-symfony",
+  "Reviews website built with PostgreSQL-Express-React-Node",
+  "Tech e-commerce website built with MySQL-Js-PHP",
+  "animal adoption website built with MongoDB-Express-React-Node",
+  "Blogging Website built with React-symfony",
+  "Reviews website built with PostgreSQL-Express-React-Node",
 ];
 
 
