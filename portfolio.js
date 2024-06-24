@@ -138,6 +138,10 @@ window.addEventListener("scroll", () => {
 });
 
 
+//footerLinks
+
+
+
 
 
 
