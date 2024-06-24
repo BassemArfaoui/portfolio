@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hello ❤️</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,74 +12,132 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
-
-        *
+        .wrapper
         {
-            font-family: "Wix Madefor Text", sans-serif;
-            font-weight: 600;
-            font-style: normal;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+            z-index: -10;
+        }  
+        
+        
+        .box div
+        {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: transparent;
+            border:6px solid rgb(14, 137, 231) ;
+            z-index: -1;
         }
+
+
+        .div1
+        {
+            top: 90%;
+            left: 50%;
+            width: 40px !important;
+            height: 40px !important;
+            animation: animate 9s linear infinite ;
+        }
+
+
+        .div2
+        {
+            top: 70%;
+            left: 10%;
+            animation: animate 13s linear infinite ;
+        }
+
+        .div3
+        {
+            top: 50%;
+            left: 80%;
+            animation: animate 10s linear infinite ;
+        }
+        .div4
+        {
+            top: 60%;
+            left: 22%;
+            width: 50px !important;
+            height: 50px !important;
+            animation: animate 10s linear infinite ;
+        }
+
+
+        .div5
+        {
+            top: 40%;
+            left: 40%;
+            width: 40px !important;
+            height: 40px !important;
+            animation: animate 11s linear infinite ;
+        }
+
+
+        .div6
+        {
+            top: 80%;
+            left: 70%;
+            width: 50px !important;
+            height: 50px !important;
+            animation: animate 15s linear infinite ;
+        }
+
+
+        .div7
+        {
+            top: 30%;
+            left: 5%;
+            width: 45px !important;
+            height: 45px !important;
+            animation: animate 13.5s linear infinite ;
+        }
+
+
 
         
-
-        ul > li > a
+        .div8
         {
-            text-decoration: none;
-            color: #0073E6;
-            font-family: "Kanit", sans-serif;
-            font-weight: 600;
-            font-size: 25px;
-            font-style:normal;
+            top: 10%;
+            left: 55%;
+            width: 45px !important;
+            height: 45px !important;
+            animation: animate 11s linear infinite ;
         }
 
-        ul
+
+        .div9
         {
-            list-style-type: none;
+            top: 15%;
+            left: 33%;
+            width: 40px !important;
+            height: 40px !important;
+            animation: animate 13s linear infinite ;
         }
 
-        li
+
+        .div10
         {
-            padding: 10px 0;
+            top: 18%;
+            left: 80%;
+            width: 40px !important;
+            height: 40px !important;
+            animation: animate 12s linear infinite ;
         }
 
-        li
+
+        .div11
         {
-           border-bottom: 10px bold black ;
-        }
-
-        .fs-1
-        {
-            font-size: 60px !important;
-            font-family: 'Wix Madefor Text', sans-serif;font-weight: 700;font-style: normal;
-        }
-
-        a:hover
-        {
-            border-bottom: 3px solid #0073E6;
-            color: #0073E6;
-        }
-
-        nav
-        {
-            height: 10vh;
-            border: 3px bold black;
-   
-
-        }
-
-        span
-        {
-            font-weight: 900 !important;
-            /* color: #1da1f2 ; */
-        }
-
-        .education
-        {
-            display: grid;
-            grid-template-columns: 100%;
-            grid-template-rows: 90% 10%;
-
+            top: 90%;
+            left: 92%;
+            width: 48px !important;
+            height: 48px !important;
+            animation: animate 10s linear infinite ;
         }
 
 
@@ -87,20 +145,80 @@
 
 
 
-    </style>
+
+        @keyframes animate
+        {
+            0%
+            {
+                transform: scale(0) translateY(0) rotate(0);
+                opacity: 0.55;
+            }
+
+            100%
+            {
+                transform: scale(1.1) translateY(-150px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+        
+        
+        </style>
 </head>
-<body style="background-color: #e0fbfc;">
+<body style="background-color:#c1eff0;">
+
+
+<!-- animated background -->
+<div class="wrapper">
+    <div class="box">
+        <div class="div1"></div>
+        <div class="div2"></div>
+        <div class="div3"></div>
+        <div class="div4"></div>
+        <div class="div5"></div>
+        <div class="div6"></div>
+        <div class="div7"></div>
+        <div class="div8"></div>
+        <div class="div9"></div>
+        <div class="div10"></div>
+        <div class="div11"></div>
+    </div>
+</div>
+
+
 
 <!-- navbar -->
 <nav>
     <div class="container-fluid w-100 px-5" >
         <ul class="d-flex justify-content-between gap-5 m-0 p-0">
-            <ul class="d-flex flex-row justify-content-start p-0 gap-5 m-0">
-                <li><a href="">Education</a></li>
-                <li><a href="">Skills</a></li>
-                <li><a href="">Projects</a></li>
+
+            <ul class="d-flex flex-row justify-content-start p-0 gap-5 m-0 big">
+                <li><a class="link" href="" id="navLink1">Education</a></li>
+                <li><a class="link" href="" id="navLink2">Skills</a></li>
+                <li><a class="link" href="" id="navLink3">Projects</a></li>
+                <li><a href="https://github.com/BassemArfaoui" target="_blank"> <i class="fa-brands fa-github fa-fw link-icon"></i> </a></li>
             </ul>
-            <li><a href="">Contact</a></li>
+
+            <!-- this is for small devices -->
+            <div class="d-flex flex-column small">
+                <ul class="p-0">
+                    <li style="position:fixed;z-index:2;" class="d-flex flex-column align-items-center gap-2">
+                        <a href="https://github.com/BassemArfaoui" target="_blank" style="margin-left: -20px;" class="gitLogo"> <i class="fa-brands fa-github fa-fw link-icon"></i> </a>                    </li>
+                </ul>
+            </div>
+            
+
+            <div class="d-flex flex-column">
+                <ul class="p-0">
+                    <li style="position:fixed;margin-left:-85px;z-index:2;" class="d-flex flex-column align-items-center gap-2">
+                        <a class="link contact mb-2" href="" id="navLink4">Contact</a> 
+                        <div class="w-100 d-flex flex-column align-items-center gap-3 hide fade-in">
+                            <a href="#"> <i class="fa-brands fa-linkedin-in fa-fw link-icon"></i> </a> 
+                            <a href="mailto: bassemarfaoui12347@gmail.com"> <i class="fa-regular fa-envelope fa-fw link-icon"></i></a> 
+                            <a href="#"> <i class="fa-brands fa-facebook fa-fw link-icon"></i> </a> 
+                        </div> 
+                    </li>
+                </ul>
+            </div>
         </ul>
     </div>
 </nav>
@@ -108,30 +226,34 @@
 
 
 <!-- Intro section -->
-<section style=" height: 90vh;">
+<section style=" height: 90vh;" class="full-90 mt-5">
     <div class="container-fluid d-flex  flex-column justify-content-between align-items-center" style="height:100%;">
-        <div class="container-fluid d-flex flex-column align-items-center gap-4 mt-5">
-            <h1 class="fs-1 text-center mt-5">Hi I'm <span class="fs-1">BASSEM ARFAOUI </span>, <br> A Web Developer</h1>
-            <button class="btn px-5 py-2 fw-bold text-light" style="border-radius: 11px;background-color: #0073E6;height: 55px; font-size: 24px;">See my projects</button>
+        <div class="container-fluid d-flex flex-column align-items-center justify-content-center mt-5">
+            <h1 class="fs-1 text-center mt-5 hero">Hi I'm <span class="fs-1 name">BASSEM ARFAOUI</span>, <br> An ICT Engineer <br>& Full stack developer</h1>
+            <button class="btn px-5 py-2 fw-bold text-light mt-2 project-button" id="buttonScroll" style="border-radius: 11px;background-color: #0073E6;height: 55px; font-size: 24px;">See my projects</button>
         </div>
 
         
-        <div class="container-fluid mb-1 d-flex justify-content-center">
-            <img src="./caret-down-fill.svg" alt="" width="45xpx" >
-         </div>
+        <div class="container-fluid mb-1 d-flex justify-content-center mt-5 arrow">
+            <img src="./caret-down-fill.svg" alt="" width="45px">
+        </div>
     </div>
 
 </section>
+<!-- creating spaces -->
+<div class="space"></div>
+
+
 
 
 <!-- Education section-->
-<section style="height: 100vh;" class="education">
+<section style="height: 100vh;" class="education ">
    <div class="container-fluid d-flex flex-column justify-content-center gap-5 px-5">
-
-        <div class="container-fluid">
-            <h1 class="text-center fs-1" stylz="color">Education</h1>
+        <!-- title -->
+        <div class="container-fluid ">
+            <h1 class="text-center fs-1 m-0 p-0" id="scroll1">Education</h1>
         </div>
-
+        <!-- content -->
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
             <div class="feature col">
             <div class="w-100 d-flex gap-2 align-items-center mb-3">
@@ -140,7 +262,7 @@
                  </div>
                 <h3 class="fs-4 text-body-emphasis fw-bold m-0">Maths-Physics <br> Computer Science</h3>
             </div>
-            <p>A preparation year of advanced Maths ,Physics and Computer Science at <a href="" style="text-decoration: none; color: black;">NATIONAL INSTITUTE OF APPLIED SCIENCE AND TECHNOLOGY </a> </p>
+            <p style="font-size: 15px;">I studied advanced maths, physics, and computer science, developing strong problem-solving skills and analytical thinking abilities in these fields at <a href="https://insat.rnu.tn/" class="text-decoration-none text-dark fw-bold">National Instute of Applied Science and Technology (I.N.S.A.T)</a> </p>
 
             </div>
 
@@ -149,9 +271,9 @@
                     <div class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 p-2 rounded rounded-3" style="background-color: #0073E6;">
                         <span class="material-symbols-outlined " style="color: white; font-size:32px;">hourglass</span>           
                      </div>
-                    <h3 class="fs-4 text-body-emphasis fw-bold m-0"> ICT <br> Engineering</h3>
+                    <h3 class="fs-4 text-body-emphasis fw-bold m-0" > ICT <br> Engineering</h3>
                 </div>
-                <p>I am Currently at my second year of Information and Communication Technology engineering at<a href="" style="text-decoration: none; color: black;"> NATIONAL INSTITUTE OF APPLIED SCIENCE AND TECHNOLOGY </a> </p>
+                <p style="font-size: 15px;">I am studying ICT engineering at <a href="https://insat.rnu.tn/"class="text-decoration-none text-dark fw-bold">I.N.S.A.T</a> .It involves a deep understanding of computer systems, programming languages, telecommunications, and digital signal processing. This field also encompasses data management, cybersecurity, and the integration of ICT solutions in various industries. </p>
     
                 </div>
 
@@ -162,29 +284,186 @@
                  </div>
                 <h3 class="fs-4 text-body-emphasis fw-bold m-0">Self<br>Learning</h3>
             </div>
-            <p>Always trying to develop my knowlege and constantly looking forward to learning new skills using online platforms like Udemy and Corsera</p>
-
+            <p style="font-size: 15px;">I am a dedicated self-learner who actively seeks out and enrolls in online courses on platforms like Udemy and Coursera to expand my skills, stay current with industry trends, and continuously enhance my knowledge in the rapidly evolving field of technology.</p>
             </div>
       </div>
    </div>
-   <div class="container-fluid mb-1 d-flex justify-content-center align-items-end">
-        <img src="./caret-down-fill.svg" alt="" width="45xpx" >
-   </div>
+
 </section>
+<!-- creating spaces -->
+<div class="space"></div>
 
 
 
-<!-- skills section -->
-<section>
+<!-- skills section-->
+<section >
+    <div class="container-fluid d-flex flex-column justify-content-center gap-5">
+         <!-- title -->
+         <div class="container-fluid mt-5">
+             <h1 class="text-center fs-1" id="scroll2">Skills</h1>
+         </div>
+         <!-- content --> 
+         <div class="row g-4 row-cols-1 row-cols-lg-3 d-flex flex-column  justify-content-center p-0 mx-1 rounded-4" >
+            <!-- computer science -->
+            <div class="container-fluid d-flex flex-column gap-3 align-items-center w-100 py-4">
+                <h4 class="fw-bold">Computer Science</h4>
+                <div class="container-fluid d-flex gap-5 justify-content-center align-items-center w-100 m-0 flex-wrap">
+                    <a href="https://www.python.org/" class="none" target="_blank"> <img src="./img/python.png" alt="" width="50"></a>
+                    <a href="https://cplusplus.com/" class="none" target="_blank"> <img src="./img/cpp.png" alt="" width="60"></a>
+                    <a href="https://www.cprogramming.com/" class="none" target="_blank"><img src="./img/c.png" alt="" width="60"></a>
+                    <a href="https://www.java.com/en/"class="none" target="_blank"><img src="./img/java.png" alt="" width="62"></a>
+                </div>
+            </div>
+
+            
+
+            <!-- web dev -->
+            <div class="container-fluid d-flex flex-column gap-3 align-items-center w-100 py-4 pb-1">
+                <h4 class="fw-bold">Web Developement</h4>
+                <div class="container-fluid d-flex gap-5 justify-content-center align-items-center w-100 m-0 flex-wrap">
+                    <a href="https://html.com" class="none" target="_blank"><img src="./img/html.png" alt="" width="60"></a>
+                    <a href="https://css3.com" class="none" target="_blank"><img src="./img/css.png" alt="" width="42"></a>
+                    <a href="https://getbootstrap.com" class="none" target="_blank"> <img src="./img/bootstrap.png" alt="" width="100" class="mt-3"></a>
+                    <a href="https://www.javascript.com" class="none" target="_blank"><img src="./img/js.png" alt="" width="62"></a>
+                    <a href="https://jquery.com/" class="none" target="_blank"><img src="./img/jquey.png" alt="" width="65"></a>
+                    <a href="https://www.php.net/" class="none" v><img src="./img/php.png" alt="" width="72"></a>
+                    <a href="https://symfony.com/" class="none" target="_blank"><img src="./img/symfony.png" alt="" width="54"></a>
+                    <a href="https://react.dev/" class="none" target="_blank"><img src="./img/react.png" alt="" width="55"></a>
+                    <a href="https://nodejs.org/en" class="none" target="_blank"><img src="./img/node.png" alt="" width="58"></a>
+                    <a href="https://expressjs.com/" class="none" target="_blank"><img src="./img/express.png" alt="" width="56"></a>
+                </div>
+            </div>
+
+            <!-- database -->
+            <div class="container-fluid d-flex flex-column gap-3 align-items-center w-100 py-4">
+                <h4 class="fw-bold">Database</h4>
+                <div class="container-fluid d-flex gap-5 justify-content-center align-items-center w-100 m-0 flex-wrap">
+                    <a href="https://www.mysql.com/en/" class="none" target="_blank"><img src="./img/mysql.png" alt="" width="90"></a>
+                    <a href="https://www.postgresql.org/" class="none" target="_blank"><img src="./img/postgres.png" alt="" width="100"></a>
+                   <a href="https://www.mongodb.com/" class="none" target="_blank"> <img src="./img/mongodb.png" alt="" width="63"></a>
+                </div>
+            </div>
+
+            <!-- Cisco -->
+            <div class="container-fluid d-flex flex-column gap-3 align-items-center w-100 py-4">
+                <h4 class="fw-bold">Networking</h4>
+
+                <div class="container-fluid d-flex gap-5 justify-content-center align-items-center w-100 m-0 flex-wrap">
+                    <div class="none" data-iframe-width="150" data-iframe-height="210" data-share-badge-id="26aef987-aee2-4747-a789-ebb8bc8616ed" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                    <div class="d-flex flex-column align-items-center gap-2">
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center gap-2">
+                        <div class="none"  data-iframe-width="150" data-iframe-height="210" data-share-badge-id="c8c0bfcc-5f4c-452b-a1d1-f8ae8c76cb6a" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>                    </div>
+                </div>
+            </div>
+
+
+         </div>
+    </div>
+
+ </section>
+ <!-- creating spaces -->
+<div class="space"></div>
+
+
+
+
+ <!-- projects section -->
+ <section style="height: 100vh;" class="education">
+    <div class="container-fluid d-flex flex-column justify-content-center  px-5 mb-5">
+         <!-- title -->
+         <div class="container-fluid">
+             <h1 class="text-center fs-1 m-0 mb-4" id="scroll3">Projects</h1>
+             <a class="m-0 p-0 none fw-bold" href="./projects.html">Projects as a List</a>
+
+         </div>
+         <!-- Slider -->
+         <div class="divs">
+
+            <div class="divs-slide">
+                <img src="../11/11.3 TinDog Project/images/dog-img.jpg" alt="" class="slider">
+                <img src="../8/8.4 Web Design Agency Project/assets/images/construction.jpg" alt="" class="slider">
+                <img src="../8/8.4 Web Design Agency Project/assets/images/beautiful.jpg" alt="" class="slider">
+                <img src="../6/6.4 Motivation Meme Project/assets/images/daenerys.jpeg" alt="" class="slider">
+            </div>
+
+            <div class="divs-slide">
+                <img src="../11/11.3 TinDog Project/images/dog-img.jpg" alt="" class="slider">
+                <img src="../8/8.4 Web Design Agency Project/assets/images/construction.jpg" alt="" class="slider">
+                <img src="../8/8.4 Web Design Agency Project/assets/images/beautiful.jpg" alt="" class="slider">
+                <img src="../6/6.4 Motivation Meme Project/assets/images/daenerys.jpeg" alt="" class="slider">
+            </div>
+
+         </div>
+
+
+        <!-- Info box -->
+         <div class="d-flex justify-content-center container-fluid mt-5">
+            <div class="info text-center w-50 mt-2">
+                <p class="text fw-bolder" ></p>
+            </div>
+         </div>
+
+    </div>
+
+ </section>
+
+
+ <div class="space" style="height: 70px;"></div>
+
+
+
+
+
+
+ <!-- contact section -->
+ <section >
+    <hr>
+    <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 mt-4 border-top">
 
     
+        <div class="col mb-3">
+          <h5 class="text-center fw-bold foot-title mb-3">Menu</h5>
+          <ul class="nav flex-column align-items-center">
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Education</a></li>
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Skills</a></li>
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Projects</a></li>
+            <li class="nav-item mb-2 p-0"><a href="projects.html" class="nav-link p-0 text-body-secondary" target="_blank">All Projects</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5 class="text-center fw-bold foot-title mb-3">More</h5>
+          <ul class="nav flex-column align-items-center">
+              <li class="nav-item mb-2 p-0 footer-link"><a href="https://www.netvisie.be/ict-engineering/" class="nav-link p-0 text-body-secondary text-center" target="_blank">ICT engineering</a></li>
+            <li class="nav-item mb-2 p-0 footer-link"><a href="https://insat.rnu.tn/" class="nav-link p-0 text-body-secondary" target="_blank">I.N.S.A.T</a></li>
+            <li class="nav-item mb-2 p-0 footer-link"><a href="https://www.credly.com/users/bassem-arfaoui/badges" class="nav-link p-0 text-body-secondary" target="_blank">Credly</a></li>
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Github</a></li>
 
-</section>
+          </ul>
+        </div>
+    
+        <div class="col mb-3 fw-bold">
+          <h5 class="text-center fw-bold foot-title mb-3">Contact</h5>
+          <ul class="nav flex-column align-items-center">
+              <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+              <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Whatsapp</a></li>
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Linkedin</a></li>
+            <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Email</a></li>
+          </ul>
+        </div>
+      </footer>
+      <div class="container-fluid text-center  my-3">All rights reserved <sup>©</sup> 2024.<br>Made with ❤️ by BASSEM ARFAOUI</div>
+ </section>
+
+
+ 
 
 
 
-
-
+<!-- javascript -->
+<script src="portfolio.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+
+
+        body
+        {
+            background-color: #c1eff0;
+        }
+
+        .slider
+        {
+            width: 350px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 2px solid #00000093;
+
+        }
+
+        .divs-slide
+        {
+
+            display: flex;
+            justify-content: center;
+            gap: 36px;
+            flex-wrap: wrap;
+            padding: 30px 20px;
+
+        }
+
+        a
+        {
+            color: #0073E6;
+            font-family: "Kanit", sans-serif;
+            font-size: 17px;
+            font-style:normal;
+            font-weight: 600;
+        }
+
+
+        .divs-slide img
+        {
+            transition: transform 0.5s ease;
+           
+        }
+
+        .divs-slide img:hover
+        {
+            transform: scale(1.05) rotate(1deg);
+            box-shadow: 4px 5px 5px #00000099;
+            cursor: pointer;
+        }
+
+        .footer-link
+        {
+            font-weight: bold;
+        }
+
+
+        .foot-title{
+            color: #0073E6;
+        }
+
+        @media only screen and (max-width: 500px)
+        {
+            .slider
+            {
+                width: 270px;
+                height: 170px;
+                margin: 20px 0;
+            }
+
+
+            .divs-slide
+            {
+                
+                
+                animation: 15s slide infinite linear;
+                display: inline-block;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid  text-center mt-3 ">
+        <h1 class="fw-bold">Projects List</h1>
+        <a href="./index.html" >Back to Portfolio</a>
+        <div class="divs-slide" class="mt-5">
+            <img src="../11/11.3 TinDog Project/images/dog-img.jpg" alt="" class="slider">
+            <img src="../8/8.4 Web Design Agency Project/assets/images/construction.jpg" alt="" class="slider">
+            <img src="../8/8.4 Web Design Agency Project/assets/images/beautiful.jpg" alt="" class="slider">
+            <img src="../6/6.4 Motivation Meme Project/assets/images/daenerys.jpeg" alt="" class="slider">
+            <img src="../11/11.3 TinDog Project/images/dog-img.jpg" alt="" class="slider">
+            <img src="../8/8.4 Web Design Agency Project/assets/images/construction.jpg" alt="" class="slider">
+            <img src="../8/8.4 Web Design Agency Project/assets/images/beautiful.jpg" alt="" class="slider">
+            <img src="../6/6.4 Motivation Meme Project/assets/images/daenerys.jpeg" alt="" class="slider">
+            <img src="../11/11.3 TinDog Project/images/dog-img.jpg" alt="" class="slider">     
+        </div>
+    </div>
+
+
+
+    <!-- footer -->
+    <section >
+        <hr>
+        <footer class="row row-cols-3 row-cols-sm-3 row-cols-md-3 mt-4 border-top">
+    
+        
+            <div class="col mb-3">
+              <h5 class="text-center fw-bold foot-title mb-3">Menu</h5>
+              <ul class="nav flex-column align-items-center">
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary footer-link">Education</a></li>
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary footer-link">Skills</a></li>
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary footer-link">Projects</a></li>
+                <li class="nav-item mb-2 p-0"><a href="projects.html" class="nav-link p-0 text-body-secondary footer-link" target="_blank">Portfolio</a></li>
+              </ul>
+            </div>
+        
+            <div class="col mb-3">
+              <h5 class="text-center fw-bold foot-title mb-3">More</h5>
+              <ul class="nav flex-column align-items-center">
+                  <li class="nav-item mb-2 p-0 footer-link"><a href="https://www.netvisie.be/ict-engineering/" class="nav-link p-0 text-body-secondary text-center" target="_blank">ICT engineering</a></li>
+                <li class="nav-item mb-2 p-0 footer-link"><a href="https://insat.rnu.tn/" class="nav-link p-0 text-body-secondary" target="_blank">I.N.S.A.T</a></li>
+                <li class="nav-item mb-2 p-0 footer-link"><a href="https://www.credly.com/users/bassem-arfaoui/badges" class="nav-link p-0 text-body-secondary" target="_blank">Credly</a></li>
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary footer-link">Github</a></li>
+    
+              </ul>
+            </div>
+        
+            <div class="col mb-3 fw-bold">
+              <h5 class="text-center fw-bold foot-title mb-3">Contact</h5>
+              <ul class="nav flex-column align-items-center">
+                  <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Facebook</a></li>
+                  <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Whatsapp</a></li>
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Linkedin</a></li>
+                <li class="nav-item mb-2 p-0"><a href="#" class="nav-link p-0 text-body-secondary">Email</a></li>
+              </ul>
+            </div>
+          </footer>
+          <div class="container-fluid text-center  my-3">All rights reserved <sup>©</sup> 2024.<br>Made with ❤️ by BASSEM ARFAOUI</div>
+     </section>
+    
+    <script src="./projects.js"></script>
+</body>
+</html>
