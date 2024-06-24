@@ -78,7 +78,7 @@ const title=document.querySelector('.hero');
 if (window.matchMedia("(max-width: 1000px)").matches) 
 {
     hidden.style.setProperty("display", "none", "important");
-    title.style.setProperty("margin-top", "50px", "important");}
+    title.style.setProperty("margin-top", "70px", "important");}
 
 
 
