@@ -40,27 +40,6 @@ for (let i = 0; i < sliders.length; i++) {
 
 
 //scrolling
-document.getElementById("navLink1").addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll1").scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
-document.getElementById("navLink2").addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll2").scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
-document.getElementById("navLink3").addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll3").scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
 document.getElementById("buttonScroll").addEventListener("click", (event) => {
   event.preventDefault();
   document.getElementById("scroll3").scrollIntoView({
@@ -138,32 +117,7 @@ window.addEventListener("scroll", () => {
 });
 
 
-//footerLinks
-const education_link=document.querySelector('.footLink1');
-const skills_link=document.querySelector('.footLink2');
-const projects_link=document.querySelector('.footLink3');
 
-
-education_link.addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll1").scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
-skills_link.addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll2").scrollIntoView({
-    behavior: "smooth",
-  });
-});
-
-projects_link.addEventListener("click", (event) => {
-  event.preventDefault();
-  document.getElementById("scroll3").scrollIntoView({
-    behavior: "smooth",
-  });
-});
 
 
 
