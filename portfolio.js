@@ -139,6 +139,20 @@ window.addEventListener("scroll", () => {
 
 
 //footerLinks
+const education_link=document.querySelector('.footLink1');
+const skills_link=document.querySelector('.footLink2');
+const projects_link=document.querySelector('.footLink3');
+
+
+education_link.addEventListener("click", (event) => {
+  event.preventDefault();
+  document.getElementById("scroll1").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+
+
+
 
 
 
