@@ -158,6 +158,13 @@ skills_link.addEventListener("click", (event) => {
   });
 });
 
+projects_link.addEventListener("click", (event) => {
+  event.preventDefault();
+  document.getElementById("scroll3").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+
 
 
 
