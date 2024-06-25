@@ -300,6 +300,14 @@
             }
 
 
+            .divs-slide img:hover
+            {
+                transform:none;
+                box-shadow:none;
+                cursor: pointer;
+            }
+
+
 
 
 
