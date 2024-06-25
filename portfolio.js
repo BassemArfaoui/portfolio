@@ -151,6 +151,13 @@ education_link.addEventListener("click", (event) => {
   });
 });
 
+skills_link.addEventListener("click", (event) => {
+  event.preventDefault();
+  document.getElementById("scroll2").scrollIntoView({
+    behavior: "smooth",
+  });
+});
+
 
 
 
