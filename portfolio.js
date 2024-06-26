@@ -2,11 +2,11 @@
 //<!-- more : add new source and new description twice -->
 const descriptions = [
   "Tech e-commerce website built with MySQL-Js-PHP",
-  "animal adoption website built with MongoDB-Express-React-Node",
+  "Animal adoption website built with MongoDB-Express-React-Node",
   "Blogging Website built with React-symfony-Node",
   "Reviews website built with PostgreSQL-Express-React-Node",
   "Tech e-commerce website built with MySQL-Js-PHP",
-  "animal adoption website built with MongoDB-Express-React-Node",
+  "Animal adoption website built with MongoDB-Express-React-Node",
   "Blogging Website built with React-symfony-Node",
   "Reviews website built with PostgreSQL-Express-React-Node",
 ];
