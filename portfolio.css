@@ -10,8 +10,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 ul>li>a {
     text-decoration: none;
     color: #0073E6;
@@ -53,7 +51,7 @@ span {
 }
 
 .education {
-    height: 100vh;
+    height:100vh;
 }
 
 a.none {
@@ -71,7 +69,6 @@ a.none {
     transform: scale(1.05);
     cursor:pointer;
 }
-
 
 .a-list
 {
