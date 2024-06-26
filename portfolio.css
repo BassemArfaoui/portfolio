@@ -66,6 +66,18 @@ a.none {
     cursor: pointer;
 }
 
+.a-list:hover
+{
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+
+.a-list
+{
+    transition: transform 0.3s ease;
+}
+
 .slider {
     width: 320px;
     height: 200px;
@@ -307,12 +319,6 @@ i {
     {
         display: flex !important;
     }
-
-
-
-
-
-
 
 
 }
