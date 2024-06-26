@@ -110,9 +110,16 @@ window.addEventListener("scroll", () => {
   if (window.scrollY === 0) github.style.opacity = "1";
 });
 
+//the projects carousel
 let proj_scr = ["./test.html", "./test.html", "./test.html", "./test.html"];
+let proj_desc = [
+  "Tech e-commerce website built with MySQL-Js-PHP",
+  "Animal adoption website built with MongoDB-Express-React-Node",
+  "Blogging Website built with React-symfony-Node",
+  "Reviews website built with PostgreSQL-Express-React-Node"
+];
 
-//the project carousel
+
 const projs = document.querySelectorAll(".proj");
 
 for (let i = 0; i < proj_scr.length; i++) {
@@ -120,3 +127,22 @@ for (let i = 0; i < proj_scr.length; i++) {
     window.open(proj_scr[i]);
   });
 }
+
+const prev = document.querySelector(".prevv");
+const next = document.querySelector(".nextt");
+const textt = document.querySelector(".disapear p");
+textt.textContent = proj_desc[0];
+let i=0;
+let len=proj_desc.length;
+prev.addEventListener("click", () => {
+  if(i==0) i=i+len-1;
+  else i--;
+  textt.textContent = proj_desc[i%len];
+});
+
+
+next.addEventListener("click", () => {
+  if(i==len-1) i=i-len+1;
+  else i++;
+  textt.textContent = proj_desc[i%len];
+});

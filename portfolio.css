@@ -250,6 +250,11 @@ i {
 
 }
 
+.disapear
+{
+    display: none;
+}
+
 
 
 
@@ -296,6 +301,12 @@ i {
         text-align: center;
     }
 
+
+        
+    .disapear
+    {
+        display: flex !important;
+    }
 
 
 
