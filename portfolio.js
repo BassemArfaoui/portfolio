@@ -109,3 +109,17 @@ window.addEventListener("scroll", () => {
   if (window.scrollY > 150) github.style.opacity = "0.7";
   if (window.scrollY === 0) github.style.opacity = "1";
 });
+
+
+
+let proj_scr=['./test.html','./test.html','./test.html'];
+//the project carousel
+const projs = document.querySelectorAll('.proj');
+
+for (let i=0 ;i<proj_scr.length;i++)
+{
+  projs[i].addEventListener('click', () => 
+  {
+    window.open(proj_scr[i]);
+  })
+}
