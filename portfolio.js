@@ -1,4 +1,5 @@
 // showing the projects descriptions
+//<!-- more : add new source and new description twice -->
 const descriptions = [
   "Tech e-commerce website built with MySQL-Js-PHP",
   "animal adoption website built with MongoDB-Express-React-Node",
