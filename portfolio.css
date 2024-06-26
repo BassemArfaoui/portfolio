@@ -284,11 +284,17 @@ i {
     }
 
     .carousel-item img
-{
-    height: 370px !important;
-    object-fit: cover;
-    width: 100%;
-}
+    {
+        height: 370px !important;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .proj-list
+    {
+        display: block;
+        text-align: center;
+    }
 
 
 
