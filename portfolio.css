@@ -371,7 +371,7 @@ i {
     
     .carousel-item img
     {
-        height: 210px !important;
+        height: 250px !important;
         object-fit: cover;
         width: 100% !important;
     }
@@ -388,7 +388,7 @@ i {
 
         .carousel-item img
         {
-            height: 170px !important;
+            height: 210px !important;
             object-fit: cover;
             width: 100%;
         }
