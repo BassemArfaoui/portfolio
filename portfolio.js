@@ -111,6 +111,7 @@ window.addEventListener("scroll", () => {
 });
 
 //the projects carousel
+//<!-- more : add new src and new desc  -->
 let proj_scr = ["./test.html", "./test.html", "./test.html", "./test.html"];
 let proj_desc = [
   "Tech e-commerce website built with MySQL-Js-PHP",
