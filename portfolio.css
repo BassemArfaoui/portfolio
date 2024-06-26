@@ -251,7 +251,11 @@ i {
 }
 
 
-@media only screen and (max-width: 1023px) {
+
+
+
+
+@media only screen and (max-width: 1024px) {
     section {
         display: block !important;
         height: auto !important;
@@ -266,6 +270,26 @@ i {
     .info {
         width: 90vw !important;
     }
+
+    .proj-lg
+    {
+        display: none !important;
+    }
+
+
+    .proj-sm
+    {
+        display: flex !important;
+        width: 80% !important;
+    }
+
+    .carousel-item img
+{
+    height: 370px !important;
+    object-fit: cover;
+    width: 100%;
+}
+
 
 
 
@@ -294,6 +318,18 @@ i {
     .hide-small {
         display: none !important;
     }
+
+    .carousel-item img
+    {
+        height: 300px !important;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+
+
+
+    
 
 
 
@@ -325,4 +361,36 @@ i {
         box-shadow: none;
         cursor: pointer;
     }
-}
+
+    
+    .proj-sm
+    {
+        width: 85% !important;
+    }
+
+    
+    .carousel-item img
+    {
+        height: 210px !important;
+        object-fit: cover;
+        width: 100% !important;
+    }
+    }
+
+
+    @media only screen and (max-width: 500px) 
+    {   
+            
+        .proj-sm
+        {
+            width: 95% !important;
+        }
+
+        .carousel-item img
+        {
+            height: 170px !important;
+            object-fit: cover;
+            width: 100%;
+        }
+
+    }
