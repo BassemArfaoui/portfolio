@@ -113,6 +113,8 @@ window.addEventListener("scroll", () => {
 
 
 let proj_scr=['./test.html','./test.html','./test.html'];
+
+
 //the project carousel
 const projs = document.querySelectorAll('.proj');
 
