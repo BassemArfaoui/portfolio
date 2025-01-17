@@ -1,26 +1,41 @@
 // showing the projects descriptions
 //<!-- more : add new source and new description twice -->
 const descriptions = [
+  "Tech e-commerce website built with MySQL-Javascript-native PHP",
+  "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
+  "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
+  "A tool leveraging data science tools to anlayse and manipulate wifi and locate phones built with FastApi React and other tools (scapy/ matplotlip etc)",
   "Tech e-commerce website built with MySQL-Js-PHP",
-  "Animal adoption website built with MongoDB-Express-React-Node",
-  "Blogging Website built with React-symfony-Node",
-  "Reviews website built with PostgreSQL-Express-React-Node",
+  "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
+  "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
   "Tech e-commerce website built with MySQL-Js-PHP",
-  "Animal adoption website built with MongoDB-Express-React-Node",
-  "Blogging Website built with React-symfony-Node",
-  "Reviews website built with PostgreSQL-Express-React-Node",
 ];
 
+// const sources = [
+//   "./projects/techme.html",
+//   "./projects/snippetup.html",
+//   "./projects/griddy.html",
+//   "./projects/wifinder.html",
+//   "./projects/techme.html",
+//   "./projects/snippetup.html",
+//   "./projects/griddy.html",
+//   "./projects/wifinder.html",
+// ];
+
+
 const sources = [
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
+  "./check.html",
+  "./check.html",
+  "./projects/griddy.html",
+  "./check.html",
+  "./check.html",
+  "./check.html",
+  "./projects/griddy.html",
+  "./check.html",
 ];
+
+
+
 
 const project_images = document.querySelectorAll(".slider");
 for (let i = 0; i < sources.length; i++) {
@@ -113,12 +128,17 @@ window.addEventListener("scroll", () => {
 
 //the projects carousel
 //<!-- more : add new src and new desc  -->
-let proj_scr = ["./test.html", "./test.html", "./test.html", "./test.html"];
+let proj_scr = [
+  "./projects/techme.html",
+  "./projects/snippetup.html",
+  "./projects/griddy.html",
+  "./projects/wifinder.html",
+];
 let proj_desc = [
-  "Tech e-commerce website built with MySQL-Js-PHP",
-  "Animal adoption website built with MongoDB-Express-React-Node",
-  "Blogging Website built with React-symfony-Node",
-  "Reviews website built with PostgreSQL-Express-React-Node"
+  "Tech e-commerce website built with MySQL-Javascript-native PHP",
+  "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
+  "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
+  "A tool leveraging data science tools to anlayse and manipulate wifi and locate phones built with FastApi React and other tools (scapy/ matplotlip etc)",
 ];
 
 

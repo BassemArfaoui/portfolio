@@ -1,13 +1,17 @@
+// const sources = [
+//   "./projects/snippetup.html",
+//   "./projects/griddy.html",
+//   "./projects/wifinder.html",
+//   "./projects/techme.html",
+
+// ];
+
 const sources = [
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
-  "./test.html",
+  "./check.html",
+  "./projects/griddy.html",
+  "./check.html",
+  "./check.html",
+
 ];
 
 const project_images = document.querySelectorAll(".slider");

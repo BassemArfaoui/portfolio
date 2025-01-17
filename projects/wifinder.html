@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Finder : Wi-Fi Analysing Tool</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f9fdf9; 
+        }
+        .navbar {
+            background-color: #4bc9d7; 
+        }
+        .video {
+
+            margin: 0 auto;
+        }
+
+
+        .w-95 {
+            width: 95%;
+        }
+        .custom-border {
+            border: 3px solid lightgray;
+        }
+        li{
+            font-size: 18px;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: "Kanit", sans-serif;
+            font-weight: 600;
+            font-size: 29px;
+            font-style: normal;
+        }
+
+        .fs-custom{
+            font-size: 20px;
+        }
+        
+        .title
+        {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .header
+        {
+            font-size: 27px;
+        }
+
+        .max-width
+        {
+            max-width: 800px;
+        }
+
+        nav{
+            border-radius: 0px 0px 8px 8px;
+            border-bottom: 3px solid rgb(201, 198, 198);
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid py-1  d-flex justify-content-center">
+             <p class="text-light header fw-bolder m-0 ms-3"><a href="/portfolio/" class="text-decoration-none text-light me-1"><i class="fa-solid fa-chevron-left"></i></a > Wi-Finder : Wi-Fi Analysing Tool</p>
+        </div>
+    </nav>
+
+    <div class="container-fluid pb-5 pt-3">
+        <!-- Video and Description Section -->
+        <div class="row align-items-stretch mb-5 mb-md-3 gap-0">
+            <div class="col-lg-6 col-md-12 text-center me-0 pe-lg-0 mb-4 mb-lg-0 d-flex align-items-center justify-content-center px-4">
+                <div class="video ratio ratio-16x9 d-flex align-items-center rounded-4  max-width justify-content-center ">
+                    <iframe 
+                        class=" video rounded-4 custom-border border-3"
+                        src="https://www.youtube.com/embed/tnMA6iRuRGY"
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <div class="col-lg-6 ms-0 ps-lg-0 col-md-12 d-flex justify-content-center">
+                <div class="w-95 rounded-4 max-width border-3 custom-border p-4 pt-3 d-flex flex-column align-items-center position-relative">
+                    <div class="mt-2 d-flex align-items-center flex-grow-1 justify-content-start flex-column">
+                        <h2 class="text-info align-self-center title mb-2 ">About Wi-Finder</h2>
+                        <p class="text-dark small fs-custom ps-2 mt-2">
+                            Griddy is an innovative tool designed to simplify grid-based layout challenges.
+                            Whether you're dealing with CSS Grid, Flexbox, or traditional table structures, Griddy provides a seamless way to visualize, debug, and optimize your grid layouts.
+                        </p>
+                    </div>
+                    <a class="position-absolute text-info bottom-0 end-0 me-1 mb-0" href="https://github.com/BassemArfaoui/Griddy--Grid-Problems-Solver" target="_blank"> 
+                        <i class="fa-brands fa-github fa-fw link-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        
+
+        
+        <!-- Technologies Section -->
+        <div class="mb-4 text-dark px-3">
+            <div class="card-body custom-border border-3 rounded-4 p-3">
+                <h3 class="card-title text-info text-center mb-3 title">Technologies Used</h3>
+                <ul>
+                    <li>
+                        <strong>Frontend: React</strong> - A JavaScript library designed for building complex, dynamic, and interactive user interfaces efficiently. 
+                        React's component-based architecture allows for reusable and modular UI development, making it perfect for applications like Griddy, which require frequent updates and dynamic interactions, such as real-time grid visualization.
+                    </li>
+                    <li>
+                        <strong>Backend: FastAPI</strong> - A modern, high-performance Python framework for building APIs. FastAPI leverages Python's type hints to deliver data validation and serialization out of the box. 
+                        Its asynchronous capabilities ensure smooth handling of multiple requests, which is crucial for optimization tasks powered by Gurobi, such as solving the shortest path and polynomial approximation problems.
+                    </li>
+                    <li>
+                        <strong>Desktop App: Electron.js</strong> - A framework for building cross-platform desktop applications using web technologies like JavaScript, HTML, and CSS. 
+                        Electron integrates seamlessly with React for the frontend and FastAPI for backend APIs, allowing Griddy to deliver a native application experience on Windows, macOS, and Linux while maintaining a shared codebase.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="mb-4 text-dark px-3">
+            <div class="card-body rounded-4 custom-border border-3 p-3">
+                <h3 class="card-title text-info text-center fw-bold mb-3 title">Key Features</h3>
+                <ul>
+                    <li>
+                        <strong>Interactive Grid Visualization:</strong> Users can visualize grid configurations dynamically. The React frontend renders the grid based on user inputs, showing blocked squares, start and end points, and the computed optimal paths.
+                    </li>
+                    <li>
+                        <strong>Real-Time Updates:</strong> Integrated real-time updates let users modify grid layouts or blockages and instantly see recalculated results, enhancing the decision-making process in dynamic environments.
+                    </li>
+                    <li>
+                        <strong>Support for Varying Grid Sizes and Weights:</strong> Griddy allows developers to experiment with grids of different sizes (up to 22x22 under a free license) and introduces weighted paths for modeling real-world traversal costs, such as terrain difficulty.
+                    </li>
+                    <li>
+                        <strong>React and FastAPI Integration:</strong> React handles user interactions and grid rendering, while FastAPI manages computational backend tasks like shortest path calculations, polynomial fitting, and router placement optimization using Gurobi.
+                    </li>
+                    <li>
+                        <strong>Responsive Design:</strong> Griddy is accessible on both web and desktop platforms. It adapts to varying screen sizes and devices, ensuring an optimal experience for all users, including those on mobile or low-resolution devices.
+                    </li>
+                    <li>
+                        <strong>Robust Error Handling:</strong> The application prevents invalid configurations (e.g., blocking start/end points) and provides clear error messages when solutions are infeasible, ensuring a user-friendly experience even under complex problem constraints.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
