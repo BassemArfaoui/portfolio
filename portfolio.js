@@ -128,7 +128,7 @@ window.addEventListener("scroll", () => {
 
 //the projects carousel
 //<!-- more : add new src and new desc  -->
-let proj_scr = ["./check.html", "./check.html", "./check.html", "./check.html"];
+let proj_scr = ["./check.html", "./check.html", "./projects/griddy.html", "./check.html"];
 
 
 let proj_desc = [
