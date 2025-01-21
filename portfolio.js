@@ -128,12 +128,9 @@ window.addEventListener("scroll", () => {
 
 //the projects carousel
 //<!-- more : add new src and new desc  -->
-let proj_scr = [
-  "./projects/techme.html",
-  "./projects/snippetup.html",
-  "./projects/griddy.html",
-  "./projects/wifinder.html",
-];
+let proj_scr = ["./check.html", "./check.html", "./check.html", "./check.html"];
+
+
 let proj_desc = [
   "Tech e-commerce website built with MySQL-Javascript-native PHP",
   "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
