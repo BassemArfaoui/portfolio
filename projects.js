@@ -7,12 +7,13 @@
 // ];
 
 const sources = [
-  "./check.html",
+  "./projects/weazy.html",
+  "./projects/snippetup.html",
   "./projects/griddy.html",
   "./check.html",
   "./check.html",
-
 ];
+
 
 const project_images = document.querySelectorAll(".slider");
 for (let i = 0; i < sources.length; i++) {

@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Griddy: Grid Problems Solver</title>
-    <!-- Bootstrap CSS -->
+    <title>Weazy: E-Commerce Solver</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -17,20 +16,19 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #f9fdf9;
+            background-color: #fdf9ff;
         }
         .navbar {
-            background-color: #52d070; 
+            background-color: #7d3c98; 
         }
 
-        .text-green
+        .text-purple
         {
-            color: #52d070  ; 
-
+            color: #7d3c98; 
         }
         .video {
             margin: 0 auto;
-            background-color:  #b0ecbf2b;
+            background-color:  #d2b4de2b;
         }
 
 
@@ -75,7 +73,7 @@
         .header
         {
             font-size: 27px;
-        }  
+        }   
 
         .max-width
         {
@@ -92,8 +90,8 @@
         .card-container {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Space between cards */
-    margin: 0 auto; /* Center the stack */
+    gap: 12px; 
+    margin: 0 auto;
 }
 
 .card {
@@ -162,18 +160,22 @@
     font-size: 21px;
 }
 
-.text-fastapi
-{
-   color : #009688
+.text-info {
+    color: #16cbea !important;
 }
 
-.text-electron
+.text-go
 {
-    color:  #4fa0af;
+   color : #00ADD8;
 }
-.text-gurobi
+
+.text-fastapi
 {
-    color:  #d42b30;
+    color:  #009688;
+}
+.text-postgres
+{
+    color:  #336791;
 }
 
     </style>
@@ -181,19 +183,18 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <div class="container-fluid py-1 me-3 d-flex justify-content-center">
-             <p class="text-light header fw-bolder m-0 ms-3 text-center"><a href="/portfolio/" class="text-decoration-none text-center text-light me-1"><i class="fa-solid fa-chevron-left"></i></a > Griddy: Optimize Your Grid</p>
+             <p class="text-light header fw-bolder m-0 ms-3 text-center"><a href="/portfolio/" class="text-decoration-none text-center text-light me-1"><i class="fa-solid fa-chevron-left"></i></a > Weazy: The Future of E-Commerce</p>
         </div>
     </nav>
 
     <div class="container-fluid py-5 pt-3">
 
-        <!-- Video and Description Section -->
         <div class="row align-items-stretch mb-5 mb-lg-3 gap-0">
             <div class="col-lg-6 col-md-12 text-center me-0 pe-lg-0 mb-4 mb-lg-0 d-flex align-items-center justify-content-center px-4">
                 <div class="video  ratio ratio-16x9 d-flex align-items-center rounded-4  max-width justify-content-center ">
                     <iframe 
                         class=" video rounded-4 custom-border border-3"
-                        src="https://www.youtube.com/embed/G21zeWsGjyo?mute=1"
+                        src="https://www.youtube.com/embed/xzzRKNIX7_g?mute=1"
                         title="YouTube video player" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -204,28 +205,25 @@
             <div class="col-lg-6 ms-0 ps-lg-0 col-md-12 d-flex justify-content-center">
                 <div class="w-95 rounded-4 max-width border-3 custom-border p-3 px-4 pt-3 d-flex flex-column align-items-center position-relative">
                     <div class="mt-2 d-flex align-items-center flex-grow-1 justify-content-start flex-column">
-                        <h2 class="text-green align-self-center title mb-1 ">About Griddy</h2>
+                        <h2 class="text-purple align-self-center title mb-1 ">About Weazy</h2>
                         <p class="text-dark text-c small fs-custom ps-2 mt-2 roboto">
-                            Griddy is an innovative project focused on solving grid-based challenges through advanced optimization techniques. It seamlessly integrates a React frontend, FastAPI backend, Electron Desktop App , and the Gurobi solver to deliver three unique modules, each designed to address specific problem scenarios. Stay tuned more modules are on the way 😊 .</p>
+                            Weazy (Web + Easy) is a next-generation, intelligent e-commerce platform powered by AI. It reimagines online shopping by replacing traditional search and Browse interfaces with a chat-based system that delivers a seamless, conversational experience — just like ChatGPT, but made for shopping. The platform is organized into separate Frontend (React), Backend (Go), and AI/ML (FastAPI) repositories.
+                        </p>
                     </div>
-                    <a class="position-absolute text-green bottom-0 end-0 me-1 mb-0" href="https://github.com/BassemArfaoui/Griddy--Grid-Problems-Solver" target="_blank"> 
-                        <i class="fa-brands fa-github fa-fw link-icon"></i>
-                    </a>
                 </div>
             </div>
         </div>
-       
-        <!-- Technologies Section -->
+        
         <div class="mb-4 text-dark px-3  ">
             <div class="card-body custom-border border-3 rounded-4 p-3">
-                <h3 class=" text-green text-center mb-4 title">Technologies Used</h3>
+                <h3 class=" text-purple text-center mb-4 title">Technologies Used</h3>
 
                 <div class="card-container w-100 mt-3">
                 
                     <div class="card-content w-100">
                         <div class="card flex-md-row">
                             <p class="roboto ">
-                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Frontend : React </span> <span class="d-none d-md-inline"> : </span>The frontend is built with React which is a powerful framework for creating dynamic and interactive user interfaces. React's component-based architecture enables modular and reusable development, while its efficient rendering ensures seamless updates and real-time functionality, ideal for applications like Griddy.
+                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Frontend : React </span> <span class="d-none d-md-inline"> : </span>The frontend is a sleek, single-page application (SPA) built with React. It provides a smooth, chat-like user experience and is styled with Tailwind CSS for a modern and responsive interface.
                             </p>
                             <div class="card-icon mb-0 mb-md-0 ">
                                 <a href="https://react.dev/" class="none" target="_blank"><img src="../img/react.png" alt=""
@@ -237,11 +235,11 @@
                     <div class="card-content w-100">
                         <div class="card flex-md-row">
                             <p class="roboto">
-                                <span class="text-fastapi card-title d-block d-md-inline w-100 text-center mb-3">Backend : FastApi </span> <span class="d-none d-md-inline"> : </span> The backend is built with FastAPI, a high-performance framework for creating robust and scalable APIs. FastAPI's support for asynchronous operations ensures efficient handling of multiple requests, while its use of Python type hints enables automatic data validation and serialization. Each module in Griddy has its own dedicated API, ensuring independence between modules and seamless scalability for different functionalities.
+                                <span class="text-go card-title d-block d-md-inline w-100 text-center mb-3">Backend : Go </span> <span class="d-none d-md-inline"> : </span> The backend is implemented using GoFiber, a fast and minimalist web framework for Go. It exposes RESTful endpoints to manage core business logic like user authentication, chats, and wishlists.
                             </p>
                             <div class="card-icon mb-1 mb-md-0">
-                                <a href="https://fastapi.tiangolo.com" class="none mb-2" target="_blank"><img src="../img/fastapi.png"
-                                        alt="" width="53"></a>
+                                <a href="https://go.dev/" class="none mb-2" target="_blank"><img src="../img/go.png"
+                                        alt="" width="75"></a>
                             </div>
                         </div>
                     </div>
@@ -250,11 +248,11 @@
                     <div class="card-content w-100">
                         <div class="card flex-md-row">
                             <p class="roboto">
-                                <span class="text-electron card-title d-block d-md-inline w-100 text-center mb-3">Desktop : Electron </span> <span class="d-none d-md-inline"> : </span> The desktop application is built with Electron.js, a framework that enables cross-platform development using web technologies. Electron.js provides a seamless integration of React for the frontend and FastAPI for backend communication, delivering a native-like experience on Windows, macOS, and Linux.
+                                <span class="text-fastapi card-title d-block d-md-inline w-100 text-center mb-3">AI/ML : FastAPI </span> <span class="d-none d-md-inline"> : </span> The AI/ML layer, built with FastAPI, serves as the brain of the platform. It interprets user queries, selects the appropriate AI tool, and interfaces with vector databases for similarity searches.
                             </p>
                             <div class="card-icon mb-1 mb-md-0">
-                                <a href="https://www.electronjs.org" class="none" target="_blank"><img src="../img/electron.png" alt=""
-                                        width="48"></a>
+                                <a href="https://fastapi.tiangolo.com/" class="none" target="_blank"><img src="../img/fastapi.png" alt=""
+                                        width="53"></a>
                             </div>
                         </div>
                     </div>
@@ -262,15 +260,11 @@
                     <div class="card-content w-100">
                         <div class="card flex-md-row">
                             <p class="roboto">
-                                <span class="text-gurobi card-title d-block d-md-inline w-100 text-center mb-3">Optimization : Gurobi </span> <span class="d-none d-md-inline"> : </span> The
-                                optimization problems within Griddy are solved using Gurobi. As a powerful mathematical optimization solver, it handles optimization tasks
-                               with high efficiency. Gurobi’s fast and
-                                reliable algorithms ensure that Griddy can process large datasets and deliver optimized solutions quickly,
-                                enhancing the overall performance and accuracy of the application.
+                                <span class="text-postgres card-title d-block d-md-inline w-100 text-center mb-3">Database : PostgreSQL </span> <span class="d-none d-md-inline"> : </span> All structured data, including users, chats, wishlists, and product information, is stored and managed using PostgreSQL, a powerful, open-source object-relational database system known for its reliability.
                             </p>
                             <div class="card-icon mb-1 mb-md-0">
-                                <a href="https://www.electronjs.org" class="none" target="_blank"><img src="../img/gurobi.png" alt=""
-                                        width="52"></a>
+                                <a href="https://www.postgresql.org/" class="none" target="_blank"><img src="../img/postgres.png" alt=""
+                                        width="80"></a>
                             </div>
                         </div>
                     </div>
@@ -280,48 +274,43 @@
             </div>
         </div>
 
-        <!-- Features Section -->
         <div class="mb-4 text-dark px-3">
             <div class="card-body rounded-4 custom-border border-3 p-3">
-                <h3 class=" text-green text-center mb-4 title">Key Features</h3>
+                <h3 class=" text-purple text-center mb-4 title">Key Features</h3>
                 <div class="card-container w-100 mt-3">
                 
                     <div class="ni-card-content w-100">
                         <div class="card">
                             <p class="roboto">
-                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Main Concept  </span><span class="d-none d-md-inline"> : </span>Griddy is an innovative platform specializing in grid optimization problems, using advanced techniques to deliver efficient solutions. With a React frontend, FastAPI backend, Electron Desktop App, and the Gurobi solver, Griddy offers three unique modules for now for specific challenges. The problems presented below highlight Griddy’s core capabilities, with more modules coming soon.
-             
-                        </div>
-                    </div>
-                
-                    <div class="ni-card-content w-100">
-                        <div class="card">
-                            <p class="roboto">
-                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Grid Shortest Path </span > <span class="d-none d-md-inline"> : </span>This module calculates the shortest path between two
-                                points on a grid, with the flexibility for users to add blocked squares. Griddy dynamically updates the path in
-                                real-time as blocked squares are added or removed. The grid size is also editable, allowing for custom configurations.
-                                If a user attempts to block the start or end grid cell, or if no path exists, Griddy provides a clear message to inform
-                                the user.This feature is perfect for applications that require real-time route adjustments, like navigation systems and network routing.
+                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Conversational Shopping Interface</span><span class="d-none d-md-inline"> : </span>Weazy reimagines online shopping with a chat-based system. Instead of traditional Browse, you can ask for what you want using natural language or images, just like talking to a shopping assistant.
                             </p>
-     
                         </div>
                     </div>
-                
                 
                     <div class="ni-card-content w-100">
                         <div class="card">
                             <p class="roboto">
-                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Grid Polynomial Regression </span> <span class="d-none d-md-inline"> : </span>This module allows users to add points on a grid, representing the x/y axis, and Griddy will then attempt to fit those points using a polynomial. The system provides an equation for the polynomial and a preview plot to visualize the fit. To ensure accuracy, users must provide at least 5 points that are not too far apart, and no two points can overlap. These constraints help guarantee the precision of the polynomial approximation, making it ideal for applications in data fitting and predictive modeling.
+                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Smart Search Options</span > <span class="d-none d-md-inline"> : </span>Utilizes multiple search methods for maximum accuracy. Supports semantic <b>Text Search</b> using OpenAI's CLIP, <b>Image Search</b> based on embeddings from models like ResNet50, and <b>Hybrid Search</b> combining both text and images for precise results.
                             </p>
-            
+    
+                        </div>
+                    </div>
+                
+                
+                    <div class="ni-card-content w-100">
+                        <div class="card">
+                            <p class="roboto">
+                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">AI Insights & Wishlist</span> <span class="d-none d-md-inline"> : </span>Save your favorite products for later with the integrated <b>Wishlist System</b>. You can also generate AI-powered <b>Product Descriptions</b> on demand to get more details about any item.
+                            </p>
+                
                         </div>
                     </div>
                 
                     <div class="ni-card-content w-100">
                         <div class="card">
                             <p class="roboto">
-                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Grid Network Coverage </span> <span class="d-none d-md-inline"> : </span> This module allows users to build walls on a customizable-sized grid, simulating physical barriers in a network area. The user can then specify the number of 2.4GHz or 5GHz routers to be placed on the grid. Griddy will strategically place the routers to maximize coverage across the grid. If a wall is placed on a router, Griddy will automatically re-calculate and find the best new placement to maintain optimal coverage. This module is ideal for applications in network planning and optimization, ensuring efficient coverage even in complex environments.
-       
+                                <span class="text-info card-title d-block d-md-inline w-100 text-center mb-3">Future Enhancements</span> <span class="d-none d-md-inline"> : </span> Exciting features are on the way, including <b>DeepSearch</b> which leverages multiple models for superior accuracy, personalized <b>Recommendations</b> based on user activity, and <b>One-Click Redirection or Purchase</b> options.
+                            </p>
                         </div>
                     </div>
                 

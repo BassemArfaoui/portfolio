@@ -1,14 +1,17 @@
 // showing the projects descriptions
 //<!-- more : add new source and new description twice -->
 const descriptions = [
+  "An AI-powered e-commerce platform that replaces traditional search with a chat-based, conversational shopping experience",
   "Tech e-commerce website built with MySQL-Javascript-native PHP",
   "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
   "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
   "A tool leveraging data science tools to anlayse and manipulate wifi and locate phones built with FastApi React and other tools (scapy/ matplotlip etc)",
+  "An AI-powered e-commerce platform that replaces traditional search with a chat-based, conversational shopping experience",
   "Tech e-commerce website built with MySQL-Js-PHP",
   "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
   "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
   "Tech e-commerce website built with MySQL-Js-PHP",
+
 ];
 
 // const sources = [
@@ -24,13 +27,15 @@ const descriptions = [
 
 
 const sources = [
-  "./check.html",
-  "./check.html",
+  "./projects/weazy.html",
+  "./projects/snippetup.html",
   "./projects/griddy.html",
   "./check.html",
   "./check.html",
-  "./check.html",
+  "./projects/weazy.html",
+  "./projects/snippetup.html",
   "./projects/griddy.html",
+  "./check.html",
   "./check.html",
 ];
 
@@ -128,7 +133,12 @@ window.addEventListener("scroll", () => {
 
 //the projects carousel
 //<!-- more : add new src and new desc  -->
-let proj_scr = ["./check.html", "./check.html", "./projects/griddy.html", "./check.html"];
+let proj_scr = [ 
+  "./projects/snippetup.html",
+  "./projects/griddy.html",
+  "./check.html",
+  "./check.html",
+];
 
 
 let proj_desc = [
@@ -136,6 +146,7 @@ let proj_desc = [
   "Snippets Sharing Social Media Web and Desktop App built with Express.js React  Electron.js and Postgres ",
   "Web App presenting some solution for the grid optimization problems built using FastApi Gurobi React",
   "A tool leveraging data science tools to anlayse and manipulate wifi and locate phones built with FastApi React and other tools (scapy/ matplotlip etc)",
+  
 ];
 
 
